@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/christianbaumann/tau-js-playwright-tutorial/issues"
   },
-  "homepage": "https://github.com/christianbaumann/tau-js-playwright-tutorial#readme"
+  "homepage": "https://github.com/christianbaumann/tau-js-playwright-tutorial#readme",
+  "devDependencies": {
+    "playwright": "^1.14.1"
+  }
 }
