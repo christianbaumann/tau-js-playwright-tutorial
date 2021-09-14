@@ -1,11 +1,4 @@
-// to use chromium
-const {chromium} = require('playwright');
-
-// to use firefox
-const {firefox} = require('playwright');
-
-// to use webkit
-const {webkit} = require('playwright');
+const {chromium, firefox, webkit} = require('playwright');
 
 
 (async () => { // anonymous arrow function
