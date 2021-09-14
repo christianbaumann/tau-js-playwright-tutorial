@@ -1,1 +1,1 @@
-tau-js-playwright-tutorial
+Excercise code for the [Playwright with JavaScript course](https://testautomationu.applitools.com/js-playwright-tutorial/) on [TestautomationU](https://testautomationu.applitools.com/)tau-js-playwright-tutorial
