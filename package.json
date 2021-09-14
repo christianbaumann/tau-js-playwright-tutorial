@@ -1,0 +1,20 @@
+{
+  "name": "tau-js-playwright-tutorial",
+  "version": "1.0.0",
+  "description": "tau-js-playwright-tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianbaumann/tau-js-playwright-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christianbaumann/tau-js-playwright-tutorial/issues"
+  },
+  "homepage": "https://github.com/christianbaumann/tau-js-playwright-tutorial#readme"
+}
