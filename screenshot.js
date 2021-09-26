@@ -5,7 +5,7 @@ const {chromium} = require('playwright');
     // function code
 
     // launching browser
-    const browser = await chromium.launch();
+    const browser = await chromium.launch({headless: false, slowMo: 100});
     // creating a page inside browser
     const page = await browser.newPage();
     // navigating to site
@@ -17,6 +17,9 @@ const {chromium} = require('playwright');
     // take screenshot of an element
     const logo = await page.$('.logo');
     await logo.screenshot({path: 'logo.png'});
+
+    // take screenshot of full page (long page)
+    await page.screenshot({path: 'fullpage.png', fullPage: true});
 
     // closing browser
     await browser.close();
