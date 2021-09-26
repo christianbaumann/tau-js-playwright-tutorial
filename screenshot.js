@@ -12,8 +12,11 @@ const {chromium} = require('playwright');
     await page.goto('https://applitools.com/');
 
     // take screenshot code
-
     await page.screenshot({path: 'screenshot.png'});
+
+    // take screenshot of an element
+    const logo = await page.$('.logo');
+    await logo.screenshot({path: 'logo.png'});
 
     // closing browser
     await browser.close();
